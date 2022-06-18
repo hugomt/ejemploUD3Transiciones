@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    padding: 50px;
+}
+
+.blueContainer {
+    text-align: center;
+    vertical-align: middle;
+    height: 100px;
+    width: 100px;
+    background: cornflowerblue;
+    transition: height 2s;
+    color: white;
+    margin-right: 10px;
+}
+
+.blueContainer:hover {
+    height: 300px;
+}
+
+.greenContainer {
+    text-align: center;
+    vertical-align: middle;
+    height: 100px;
+    width: 100px;
+    background: greenyellow;
+    transition: width 2s;
+    color: black;
+}
+
+.greenContainer:hover {
+    width: 300px;
+}
