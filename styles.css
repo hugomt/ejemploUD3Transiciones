@@ -26,8 +26,24 @@ body {
     background: greenyellow;
     transition: width 2s;
     color: black;
+    margin-right: 10px;
 }
 
 .greenContainer:hover {
     width: 300px;
+}
+
+.greyContainer {
+    text-align: center;
+    vertical-align: middle;
+    height: 100px;
+    width: 100px;
+    background: lightgray;
+    transition: width 2s, height 2s;
+    color: black;
+}
+
+.greyContainer:hover {
+    width: 300px;
+    height: 300px;
 }
